@@ -1,0 +1,19 @@
+{
+	"name": "pinia-ssr-repro",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "node ./server.js"
+	},
+	"dependencies": {
+		"express": "latest",
+		"pinia": "latest",
+		"vue": "latest",
+		"vue-router": "latest"
+	},
+	"devDependencies": {
+		"@types/express": "latest",
+		"@types/node": "latest"
+	},
+	"packageManager": "pnpm@9.9.0"
+}
